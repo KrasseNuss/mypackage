@@ -10,12 +10,23 @@
 #
 #@param a Erste Zahl
 #@param b Zweite Zahl
-#@return Summe
+#@return Summe von a und b
+#@examples
+#addiere(1, 2)
+#addiere(-5, 3)
 #@export
 
 addiere <- function(a, b) {
   a+b
 }
+
+#@param a Erste Zahl
+#@param b Zweite Zahl
+#@return Summe von a und b
+#@examples
+#subtrahiere(1, 2)
+#subtrahiere(-5, 3)
+#@export
 
 subtrahiere <- function(a, b){
   a-b
